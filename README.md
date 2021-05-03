@@ -2,4 +2,4 @@
 
 ### ejecutar script:
 
- ````npm install```
+ ```npm install```
