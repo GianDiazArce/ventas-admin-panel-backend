@@ -54,6 +54,7 @@ const newSale = async(req, res = response) => {
         place: req.body.place,
         user: req.body.user,
         status: req.body.status,
+        gained: req.body.gained
     })
 
 

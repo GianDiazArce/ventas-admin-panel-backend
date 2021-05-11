@@ -21,6 +21,10 @@ const SaleSchema = Schema({
         default: 'pending',
         enum:["cancel", "pending", "success"]
     },
+    gained: {
+        type: Number,
+        required: true,
+    },
     user: {
         type: Schema.Types.ObjectId,
         ref: 'Usuario',
